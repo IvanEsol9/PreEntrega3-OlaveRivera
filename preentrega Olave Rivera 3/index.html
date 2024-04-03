@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de computadoras a reparar</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pre-entrega Olave Rivera 3</h1>
+    
+        <p>Realicé un sistema en el que puedo cargar los datos de las computadoras a arreglar y me arroja las ganancias finales</p>
+
+        <form id="computadoraForm">
+            <label for="nombreCliente">Nombre del Cliente:</label><br>
+            <input type="text" id="nombreCliente" name="nombreCliente"><br>
+            <label for="contraseñaWindows">Contraseña Windows:</label><br>
+            <input type="password" id="contraseñaWindows" name="contraseñaWindows"><br>
+            <label for="tarea">Tarea a realizar:</label><br>
+            <input type="text" id="tarea" name="tarea"><br>
+            <label for="presupuesto">Presupuesto:</label><br>
+            <input type="number" id="presupuesto" name="presupuesto"><br>
+            <label for="precioComponentes">Precio de los Componentes:</label><br>
+            <input type="number" id="precioComponentes" name="precioComponentes"><br><br>
+            <button type="submit">Ingresar Computadora</button>
+        </form>
+        
+        <button id="mostrarBtn">Mostrar Información</button>
+        <button id="mostrarGananciasBtn">Mostrar Ganancias</button>
+
+        <div class="info-container"></div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
